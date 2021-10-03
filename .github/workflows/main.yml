@@ -48,7 +48,7 @@ jobs:
           with:
             images: cristianofilho/conversao-peso:${{ github.run_number }}
             manifests: |
-              k8s/deployment.yaml
+              ConversaoPeso.Web/k8s/deployment.yaml
 
 
 
